@@ -1,4 +1,4 @@
-find_package(Eigen3 3.4.1 REQUIRED NO_MODULE)
+find_package(Eigen3 5 REQUIRED NO_MODULE)
 
 add_library(pp_ader STATIC)
 
