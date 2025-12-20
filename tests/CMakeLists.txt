@@ -18,6 +18,7 @@ FetchContent_MakeAvailable(doctest)
 add_executable(pp_ader_tests
   test_main.cpp
   fv_core/test_mesh.cpp
+  fv_core/test_fluxes.cpp
 )
 
 target_link_libraries(pp_ader_tests

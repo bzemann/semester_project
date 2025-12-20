@@ -3,7 +3,7 @@
 #include <doctest/doctest.h>
 
 #include <pp_ader/fv_core/concepts.hpp>
-#include <pp_ader/fv_core/mesh.hpp>
+#include <pp_ader/fv_core/mesh1d.hpp>
 
 using namespace PpADER::FvCore;
 
@@ -56,5 +56,6 @@ TEST_SUITE("fv_core::Mesh1d") {
     CHECK(MeshAPI::cell_center(m, 6) > 1.0);
     CHECK(MeshAPI::cell_center(m, 7) > 1.0);
   }
-
 }  // TEST_SUITE
+
+
