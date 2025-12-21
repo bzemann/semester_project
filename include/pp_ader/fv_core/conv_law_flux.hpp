@@ -23,7 +23,7 @@ struct LawTrait<LinAdvScalar> {
     return law.c * u;
   }
 
-  static scalar_t max_wave_speed(const LinAdvScalar& law, const state_t& u_minus, const state_t& u_plus) {
+  static scalar_t max_wave_speed(const LinAdvScalar& law, const state_t&, const state_t&) {
     return std::abs(law.c);
   }
 };
